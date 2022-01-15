@@ -1,0 +1,13 @@
+.someClass {
+    border: 2px solid green;
+}
+
+.error {
+    border: 2px solid red;
+}
+.dont_have_error {
+    color: green;
+}
+.have_error {
+    color: red;
+}
