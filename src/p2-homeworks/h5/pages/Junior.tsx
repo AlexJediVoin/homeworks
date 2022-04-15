@@ -8,10 +8,10 @@ import s from '../style/StyleForAllPages.module.css'
 function Junior() {
     return (
         <div className={s.container}>
-            {/*<HW6/>
+            <HW6/>
             <HW7/>
             <HW8/>
-            <HW9/>*/}
+            <HW9/>
         </div>
     )
 }

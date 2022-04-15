@@ -22,9 +22,10 @@
 .hidden_panel {
     position: fixed; /* положение */
     top: 30px; /* отступ сверху */
-    left: -220px; /* отступ слева */
+    left: -270px; /* отступ слева */
     /* background: lavender; !* цвет фона *!*/
-    width: 200px; /* ширина блока */
+    font: 14px Arial;
+    width: 310px; /* ширина блока */
     height: 150px; /* высота блока */
     padding: 5px; /* отступы от границ внутри блока */
     text-align: left; /* выравнивание текста */
@@ -40,7 +41,7 @@
 }
 
 .panel:hover {
-    left: 210px; /* при наведении выдвигается на скрытые 200px + 20px отступы */
+    left: 240px; /* при наведении выдвигается на скрытые 200px + 20px отступы */
 }
 
 .panel:hover .hidden_panel {
@@ -49,7 +50,8 @@
 
 .nav_item {
     margin-right: 15px;
-    color: olive;
+    font: 18px Arial;
+    color: darkgreen;
     text-decoration: none;
 }
 
