@@ -1,12 +1,10 @@
 import React, {ChangeEvent, InputHTMLAttributes, DetailedHTMLProps} from 'react'
-import {isBoolean} from "util";
 
 type DefaultRadioPropsType = DetailedHTMLProps<InputHTMLAttributes<HTMLInputElement>, HTMLInputElement>
 
 type SuperRadioPropsType = DefaultRadioPropsType & {
     options?: any[]
     onChangeOption?: (option: any) => void
-   // onChecked?: (check: string) => void
     value: any
 }
 
@@ -15,7 +13,6 @@ const SuperRadio: React.FC<SuperRadioPropsType> = (
         type, name,
         options, value,
         onChange, onChangeOption,
-       // onChecked,
         ...restProps
     }
 ) => {
@@ -31,11 +28,10 @@ const SuperRadio: React.FC<SuperRadioPropsType> = (
                 value={o}
                 onChange={onChangeCallback}
                 checked={o === value}
-                // name, checked, value, onChange
             />
             {o}
         </label>
-)) : []
+    )) : []
 
     return (
         <>
