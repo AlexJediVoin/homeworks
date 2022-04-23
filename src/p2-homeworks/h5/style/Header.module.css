@@ -26,7 +26,7 @@
     /* background: lavender; !* цвет фона *!*/
     font: 14px Arial;
     width: 310px; /* ширина блока */
-    height: 150px; /* высота блока */
+    height: 50px; /* высота блока */
     padding: 5px; /* отступы от границ внутри блока */
     text-align: left; /* выравнивание текста */
 

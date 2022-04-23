@@ -10,8 +10,8 @@ function Junior() {
         <div className={s.container}>
             <HW6/>
             <HW7/>
-            <HW8/>
-            <HW9/>
+            {/*<HW8/>
+            <HW9/>*/}
         </div>
     )
 }
