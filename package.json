@@ -1,6 +1,6 @@
 {
-  "name": "homeworks",
-  "homepage": "https://AlexJediVoin.github.io/homeworks",
+  "name": "homework",
+  "homepage": "https://github.com/AlexJediVoin/homework.git",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
