@@ -11,7 +11,7 @@ function Junior_Plus() {
         <div className={s.container}>
            <Provider store={store}><HW10/></Provider>
             <HW11/>
-            <HW12/>
+            <Provider store={store}><HW12/></Provider>
         </div>
     )
 }

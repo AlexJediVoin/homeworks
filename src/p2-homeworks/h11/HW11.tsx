@@ -9,22 +9,17 @@ function HW11() {
     const handleChange = (event: Event, newValue: number | number[], activeThumb?: number): void => {
         if (Array.isArray(newValue)) {
             setValue1(newValue[0]);
-            if (value1 === value2[1]) {
-
-                setValue([value1, value1])
-
-            } else {
-                setValue(newValue as number[]);
-            }
+            setValue(newValue as number[]);
         }
     };
     let onChangeRange = (value: number) => {
-        setValue1(value)
-        if (value1 > value2[1]) {
 
+        if (value1 > value2[1]) {
+            setValue1(value2[1])
             setValue([value2[1], value2[1]])
 
         } else {
+            setValue1(value)
             setValue([value1, value2[1]])
         }
     }

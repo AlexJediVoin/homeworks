@@ -14,6 +14,23 @@
     color: aqua;
 }
 
+.blue
+{
+    background: blue;
+}
+
+.blue-text {
+    color: cornflowerblue;
+}
+
+.purple {
+    background: blueviolet;
+}
+
+.purple-text {
+    color: darkslateblue;
+}
+
 .some {
     background: lightgreen;
 }
