@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/AlexJediVoin/homework.git/static/css/main.699db1b7.chunk.css",
-    "main.js": "/AlexJediVoin/homework.git/static/js/main.a9cca6dc.chunk.js",
-    "main.js.map": "/AlexJediVoin/homework.git/static/js/main.a9cca6dc.chunk.js.map",
+    "main.js": "/AlexJediVoin/homework.git/static/js/main.82ff9dad.chunk.js",
+    "main.js.map": "/AlexJediVoin/homework.git/static/js/main.82ff9dad.chunk.js.map",
     "runtime-main.js": "/AlexJediVoin/homework.git/static/js/runtime-main.38ff2bd8.js",
     "runtime-main.js.map": "/AlexJediVoin/homework.git/static/js/runtime-main.38ff2bd8.js.map",
-    "static/js/2.3c081acf.chunk.js": "/AlexJediVoin/homework.git/static/js/2.3c081acf.chunk.js",
-    "static/js/2.3c081acf.chunk.js.map": "/AlexJediVoin/homework.git/static/js/2.3c081acf.chunk.js.map",
+    "static/js/2.a96194ea.chunk.js": "/AlexJediVoin/homework.git/static/js/2.a96194ea.chunk.js",
+    "static/js/2.a96194ea.chunk.js.map": "/AlexJediVoin/homework.git/static/js/2.a96194ea.chunk.js.map",
     "index.html": "/AlexJediVoin/homework.git/index.html",
     "static/css/main.699db1b7.chunk.css.map": "/AlexJediVoin/homework.git/static/css/main.699db1b7.chunk.css.map",
-    "static/js/2.3c081acf.chunk.js.LICENSE.txt": "/AlexJediVoin/homework.git/static/js/2.3c081acf.chunk.js.LICENSE.txt"
+    "static/js/2.a96194ea.chunk.js.LICENSE.txt": "/AlexJediVoin/homework.git/static/js/2.a96194ea.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.38ff2bd8.js",
-    "static/js/2.3c081acf.chunk.js",
+    "static/js/2.a96194ea.chunk.js",
     "static/css/main.699db1b7.chunk.css",
-    "static/js/main.a9cca6dc.chunk.js"
+    "static/js/main.82ff9dad.chunk.js"
   ]
 }
